@@ -27,14 +27,6 @@
     }
   },
   {
-    "title": "Lostkey",
-    "description": "Anonymous chat rooms in an SMS format.",
-    "languages": ["React", "Node", "MongoDB"],
-    "links": {
-      "live": "http://lostkey.host/"
-    }
-  },
-  {
     "title": "WhatGPU?!",
     "description": "Find out online what GPU you are using.",
     "languages": ["React", "Threejs"],
