@@ -13,8 +13,8 @@
     "description": "Digital 3D & Artistic Experience of what my room might look like based on my experience/skills.",
     "languages": ["React", "Three", "Blender"],
     "links": {
-      "live": "https://trevsm.github.io/portfolio",
-      "source": "https://github.com/trevsm/portfolio"
+      "live": "https://trevsm.github.io/3d-portfolio",
+      "source": "https://github.com/trevsm/3d-portfolio"
     }
   },
   {
