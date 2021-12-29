@@ -1,5 +1,14 @@
 [
   {
+    "title": "TastySpore",
+    "description": "View super fast screenshots of any website in multiple device formats at once.",
+    "languages": ["Typescript", "React", "Gatsby", "Graphql"],
+    "links": {
+      "live": "https://tastyspore.com",
+      "source": "https://github.com/trevsm/tastyspore"
+    }
+  },
+  {
     "title": "Devices",
     "description": "View super fast screenshots of any website in multiple device formats at once.",
     "languages": ["React", "Node", "Puppeteer"],
