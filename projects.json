@@ -1,7 +1,7 @@
 [
   {
     "title": "TastySpore",
-    "description": "View super fast screenshots of any website in multiple device formats at once.",
+    "description": "Discover delicious mushrooms & tasty new recipes.",
     "languages": ["Typescript", "React", "Gatsby", "Graphql"],
     "links": {
       "live": "https://tastyspore.com",
