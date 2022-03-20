@@ -2,20 +2,26 @@
   "name": "mobile-portfolio",
   "description": "",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/index.tsx",
   "dependencies": {
-    "@trevsm/urls": "^1.0.7",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "typescript": "^4.6.2"
   },
   "devDependencies": {
+    "@trevsm/urls": "^1.0.7",
+    "@types/node": "^17.0.21",
+    "@types/react": "^17.0.41",
+    "@types/react-dom": "^17.0.14",
     "gh-pages": "^3.2.3",
     "react-scripts": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && cp CNAME build/",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint": "eslint --fix \"./src/**/*.{js,jsx,ts,tsx,json}\"",
+    "format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
   },
   "repository": {
     "type": "git",

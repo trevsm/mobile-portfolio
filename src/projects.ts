@@ -1,6 +1,13 @@
 import { github } from "@trevsm/urls";
 
-export const projects = [
+export interface Project {
+  title: string;
+  description: string;
+  languages: string[];
+  links: { source?: string; live?: string };
+}
+
+export const projects: Project[] = [
   {
     title: "TastySpore",
     description: "Discover delicious mushrooms & tasty new recipes.",
